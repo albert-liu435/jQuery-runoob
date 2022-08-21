@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"> 
+<title>菜鸟教程(runoob.com)</title>
+<script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js">
+</script>
+<script>
+$(document).ready(function(){
+  $(":checked").wrap("<span style='background-color:red' />");
+});
+</script>
+</head>
+<body>
+
+<form action="">
+名字: <input type="text" name="user"><br>
+我有一辆自行车:
+<input type="checkbox" name="vehicle" value="Bike"><br>
+我有一辆汽车:
+<input type="checkbox" name="vehicle" value="Car" checked="checked"><br>
+我有一架飞机:
+<input type="checkbox" name="vehicle" value="Airplane"><br>
+<input type="submit">
+</form>
+<p>注意：我们使用jQuery .wrap 方法来设置选中的元素高亮，Firefox 浏览器不支持复选框设置背景颜色。</p>
+
+</body>
+</html>
