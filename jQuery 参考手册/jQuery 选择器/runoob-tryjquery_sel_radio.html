@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"> 
+<title>菜鸟教程(runoob.com)</title>
+<script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js">
+</script>
+<script>
+$(document).ready(function(){
+  $(":radio").wrap("<span style='background-color:red' />");
+});
+</script>
+</head>
+<body>
+
+<form action="">
+用户名: <input type="text" name="user"><br>
+男:<input type="radio" name="sex" value="m"><br>
+女<input type="radio" name="sex" value="f"><br>
+<input type="submit">
+</form>
+
+<p>注意：我们使用jQuery .wrap 方法来设置选中的元素高亮，Firefox 浏览器不支持单选按钮设置背景颜色。</p>
+
+</body>
+</html>
