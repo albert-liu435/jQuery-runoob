@@ -1,1 +1,1 @@
-https://www.runoob.com/jquery/sel-parent-child.html
+https://www.runoob.com/jquery/jq-event-currenttarget.html
